@@ -7,13 +7,6 @@
     padding-bottom: 68px;
     text-align: center;
 
-        &__scroll {
-            width: 45px;
-            height: 45px;
-            transform: translateY(-80px);
-            background-color: white;
-            border-radius: 50%;   
-        }
             &__ul1 {
                 list-style: none;
                 line-height: 30px;
@@ -44,5 +37,22 @@ li a{
             font-family: 14px;
             padding: 5px;
         }
+}
+.footerdiv {
+    
+    width: 45px;
+    height: 45px;
+    transform: translateY(-80px);
+    background-color: white;
+    border-radius: 50%; 
+    display: flex;  
+    justify-content: center;
+
+        &__scroll {
+            font-family: $font-main;
+        }
+
+
+    
 }
 

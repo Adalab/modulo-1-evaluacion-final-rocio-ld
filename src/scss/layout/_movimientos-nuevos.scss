@@ -5,49 +5,47 @@
     padding-left: 15px;
     padding-right: 15px;
 
-
-
- 
-
-
-}
-.section2 h2 {
-    font-size: 20px;
-    text-align: center;
-    line-height: 1.67;
-    font-family: $font-title;
-    margin-top: 29px;
+        h2 {
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.67;
+        font-family: $font-title;
+         margin-top: 29px;
     
-    
+        }
 
 }
 .ul {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    gap: 20%;
     text-align: center;
     margin-top: 15px;
     margin-left: 66px;
     margin-right: 76px;
 
         &__li {
-            list-style: none;
             
+            list-style: none;
+                h3 {
+                font-size: 18px;
+                font-family: $font-title;
+                p {
+                font-size: 18px;
+                line-height: 1.67;
+
+                }
+            }
         }
     
 
     
-        &__li p {
-            font-size: 18px;
-            line-height: 1.67;
-        }
+        
     
 
 }
-h3 {
-    font-size: 18px;
-    font-family: $font-title;
-}
+
 
 .start-button {
     color: white;
@@ -60,7 +58,7 @@ h3 {
     height: 45px;
     border: none;
     margin-bottom: 49px;
-    margin-top: 27px;
+    margin-top: 80px;
 
     
 
