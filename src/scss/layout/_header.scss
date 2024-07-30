@@ -2,6 +2,7 @@
     height: 100vh;
    background-image: url(/images/background1.jpeg);
    background-size: cover;
+ 
    
    
         h1 {
@@ -11,13 +12,14 @@
         line-height: 50px;
         text-align: center;
         }
+        
 
-    p {
+        p {
         color:white;
         font-family: $font-main;
         text-align: center;
 
-    }
+        }
 
         &__link {
            top: 0;
@@ -34,6 +36,9 @@
             justify-content: flex-end;
             align-items: center;
 
+
+            
+
         }
     }
 .divheader {
@@ -45,12 +50,10 @@
     display: flex;
     justify-content: center;
 
-        
-
 }
 
-
-
-
-
-
+@media (min-widht: 768px) {
+    h1 {
+        font-size: 75px;
+    }
+}
