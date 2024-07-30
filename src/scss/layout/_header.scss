@@ -1,31 +1,33 @@
-header {
+.header {
     height: 100vh;
    //background-image: url(/public/images/cover.jpeg);
-   background-color:aquamarine;
    display: flex;
    flex-direction: column;
    justify-content: flex-end;
-   text-align: center;
+   align-items: center;
+   background-image: url(/images/background1.jpeg);
    
-        &--link {
-           display: none;
-        }
-            
-            
-     
-           
-        }
-
-   
-   
-    
-h1 {
+   h1 {
     font-size: 30px;
     font-family: $font-main;
     color: white;
-    
+    }
+
+    p {
+        color:white;
+
+    }
+
+        &__link {
+           position: fixed;
+           top: 0;
+           left: 0;
+        }
+        &__scroll {
+            width: 38px;
+        }
+        
 
 }
-.header__container p {
-    color: white;
-}
+
+
