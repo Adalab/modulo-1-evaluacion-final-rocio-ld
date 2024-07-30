@@ -1,9 +1,9 @@
 .section2 {
     background-color: $color-white;
-    padding-left: 66px;
-    padding-right: 74px;
     display: grid;
     grid-template-rows: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 
 
 
@@ -15,6 +15,8 @@
     font-size: 20px;
     text-align: center;
     line-height: 1.67;
+    font-family: $font-title;
+    margin-top: 29px;
     
     
 
@@ -24,9 +26,13 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     text-align: center;
+    margin-top: 15px;
+    margin-left: 66px;
+    margin-right: 76px;
 
         &__li {
             list-style: none;
+            
         }
     
 
@@ -40,6 +46,7 @@
 }
 h3 {
     font-size: 18px;
+    font-family: $font-title;
 }
 
 .start-button {
@@ -53,6 +60,7 @@ h3 {
     height: 45px;
     border: none;
     margin-bottom: 49px;
+    margin-top: 27px;
 
     
 
