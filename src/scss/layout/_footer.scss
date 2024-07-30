@@ -42,11 +42,12 @@ li a{
     
     width: 45px;
     height: 45px;
-    transform: translateY(-80px);
+    transform: translateY(-85px);
     background-color: white;
     border-radius: 50%; 
     display: flex;  
     justify-content: center;
+    align-items: center;
 
         &__scroll {
             font-family: $font-main;
