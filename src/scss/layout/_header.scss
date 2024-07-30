@@ -11,6 +11,20 @@
         color: white;
         line-height: 50px;
         text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+              
+                @media (min-width: 768px){
+                    font-size: 75px;
+                    line-height: 100px;
+            }
+                @media (min-width: 1273.9px){
+                    font-size: 100px;
+                    line-height: 132px;
+                    
+
+            }
+
         }
         
 
@@ -18,6 +32,16 @@
         color:white;
         font-family: $font-main;
         text-align: center;
+        padding-left: 20%;
+        padding-right: 20%;
+             @media (min-width: 768px){
+                font-size: 24px;
+                line-height: 28px;
+            @media (min-width: 1273.9px){
+                font-size: 32px;
+            }
+                
+        }
 
         }
 
@@ -51,6 +75,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+        @media (min-width: 768px){
+            width: 42.5px;
+            height: 45px;
+        }
+        @media (min-width: 1273.9px){
+            width: 46.2px;
+            height: 45.9px;
+        }
 
 }
 

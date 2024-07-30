@@ -3,6 +3,15 @@
 .section1 {
     padding: 34px 12px 51px 13px;
     font-family: $font-main;
+
+        @media (min-width: 768px){
+            padding-left: 37px;
+            padding-right: 41px;
+        }
+        @media (min-width: 1273.9px){
+            padding-left: 275px;
+            padding-right: 136px;
+        }
     
 
     &__p1 {
@@ -10,18 +19,29 @@
         font-size: 14px;
         margin: 0 103px 33px 0;
         font-family: $font-main;
+            @media (min-width: 768px) {
+                font-size: 16px;
+            }
 
     }
     &__p2 {
         color: $color-grey;
         margin: 11px 0 51px 3px;
         font-family: $font-main;
+        @media (min-width: 768px){
+            font-size: 20px;
+            line-height: 30px;
+        }
           
     }
     &__title {
         font-size: 24px;
         margin: 22px 0 11px;
         font-family: $font-title;
+            @media (min-width: 768px){
+                font-size: 32px;
+                line-height: 45px;
+            }
     }
     &__button{
         color: $color-orange;
@@ -33,6 +53,7 @@
         margin: 10px 11.4px 0 11.4px;
         border: solid 2px $color-orange;
         font-family: $font-main;
+       
                 
             
            
