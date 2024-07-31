@@ -1,22 +1,33 @@
 .footer {
     background-color: $color-grey;
     padding-bottom: 68px;
-    padding-top: 65px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+      
 
 
             &__ul1 {
                 list-style: none;
                 line-height: 30px;
+                    @media (min-width: 768px){
+                        order: 1;
+                    }
+                    @media (min-width: 1273.9px){
+                        order: 1;
+                    }
             }
             &__ul2 {
                 list-style: none;
                 padding-top: 30px;
                 line-height: 30px;
+                    @media (min-width: 768px){
+                        order: 2;
+                    }
+                    @media (min-width: 1273.9px){
+                        order: 2;
+                    }
             }
 
         }
@@ -25,9 +36,17 @@
     flex-direction: column;
     align-items: center;
     padding-top: 65px;
-            @media (min-widht: 768px) {
-            flex-direction: row-reverse;
-            gap: 30px;
+            @media (min-width: 768px) {
+                flex-direction: row;
+                justify-content: space-around;
+                gap: 100px;
+                text-align: left;
+            }
+            @media (min-width: 768px) {
+                flex-direction: row;
+                justify-content: space-around;
+                gap: 100px;
+                text-align: left;
             }
     }
 
@@ -41,6 +60,12 @@ li a{
     flex-direction: column;
     padding-top: 32px;
     padding-bottom: 36px;
+        @media (min-width: 768px){
+            order: 0;
+        }
+        @media (min-width: 768px){
+            order: 0;
+        }
     
     
         p {
@@ -53,7 +78,7 @@ li a{
     
     width: 45px;
     height: 45px;
-    transform: translateY(-85px);
+    transform: translateY(-25px);
     background-color: white;
     border-radius: 50%; 
     display: flex;  
