@@ -24,10 +24,9 @@
                 line-height: 30px;
                     @media (min-width: 768px){
                         order: 2;
+                        padding-top: 0px;
                     }
-                    @media (min-width: 1273.9px){
-                        order: 2;
-                    }
+                   
             }
 
         }
@@ -38,12 +37,7 @@
     padding-top: 65px;
             @media (min-width: 768px) {
                 flex-direction: row;
-                justify-content: space-around;
-                gap: 100px;
-                text-align: left;
-            }
-            @media (min-width: 768px) {
-                flex-direction: row;
+                align-items: flex-start;
                 justify-content: space-around;
                 gap: 100px;
                 text-align: left;
@@ -62,9 +56,7 @@ li a{
     padding-bottom: 36px;
         @media (min-width: 768px){
             order: 0;
-        }
-        @media (min-width: 768px){
-            order: 0;
+            padding-top: 0px;
         }
     
     

@@ -12,13 +12,18 @@
         line-height: 1.67;
         font-family: $font-title;
          margin-top: 29px;
+         padding-bottom: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
             @media(min-width: 768px){
                 font-size: 28px;
                 line-height: 45px;
+                padding-bottom: 20px;
             }
             @media(min-width: 1273.9px){
                 font-size: 32px;
                 line-height: 45px;
+                padding-bottom: 50px;
     
         }
 
@@ -29,14 +34,15 @@
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20%;
     text-align: center;
-    margin-top: 15px;
     margin-left: 66px;
     margin-right: 76px;
+    margin-bottom:40px;
+    
         @media (min-width: 768px) {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows:1fr ;
-        gap: 5%;
+        gap: 0%;
         }
         
 
@@ -46,19 +52,27 @@
                 h3 {
                 font-size: 18px;
                 font-family: $font-title;
+                
+              
+                
                     @media (min-width: 768px){
                         font-size: 24px;
-                        line-height: 30px;   
+                        line-height: 30px;
+                        padding-bottom: 20px;   
                     }
                     @media (min-width: 1273.9px){
                         font-size: 32px;
-                        line-height: 45px;   
+                        line-height: 45px;
+                        padding-bottom: 25px;
+                          
                     }
                 }
             }
             p {
                 font-size: 18px;
                 line-height: 1.67;
+                font-family: $font-main;
+                    
                     @media (min-width: 768px){
                         font-size: 20px;
                         line-height: 30px
@@ -92,7 +106,9 @@
     border: none;
     margin-bottom: 49px;
     margin-top: 80px;
-
+        @media(min-width: 768px){
+            margin-top: 20px;
+        }
     
 
 
